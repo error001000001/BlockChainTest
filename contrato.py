@@ -9,7 +9,7 @@ class contrato:
 
     def comprar(self, price):
         self.monto.append(price)
-        
+
     def addObjeto(self, obj):
         self.obj_dir.append(obj)
 
@@ -19,4 +19,5 @@ class contrato:
 
 objeto = contrato('0x0f95930x95938f93920', {'0x949':39})
 objeto.addObjeto({'0xf5929': 44})
+objeto.addObjeto({'0x406g603': 4})
 objeto.mostrar()
